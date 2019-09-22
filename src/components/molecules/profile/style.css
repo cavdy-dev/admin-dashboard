@@ -1,0 +1,14 @@
+.profile-message {
+  text-align: right;
+  color: var(--color-grey-2);
+}
+
+.hello {
+  font-size: 12px;
+}
+
+.profile-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

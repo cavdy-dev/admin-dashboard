@@ -1,0 +1,23 @@
+.notification {
+  position: relative;
+}
+.notification:hover {
+  cursor: pointer;
+}
+
+.notification-count {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  font-size: 10px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.far {
+  color: var(--color-grey-2);
+}

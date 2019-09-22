@@ -1,0 +1,12 @@
+.header-search {
+  border: none;
+  outline: none;
+  transform: scale(1);
+  transition: .4s transform ease-in-out, border .4s ease-in-out;
+}
+
+.header-search:focus,
+.header-search:active {
+  border-bottom: 1px solid var(--color-grey);
+  transform: scale(1.1);
+}
