@@ -1,21 +1,16 @@
 :root {
   --color-grey: #f3f3f3;
   --color-grey-2: #5d5d5d;
+  --color-grey-3: #919191;
   --color-white: #ffffff;
-  --color-shadow: #efefef;
+  --color-shadow: #f7f7f7;
   --color-blue: #1461a8;
+  --color-blue-light: #c4e2ffcb;
+  --color-blue-light-2: #a0cffacb;
+  --color-green: #18ad63;
 }
 
 body {
   background-color: var(--color-grey);
   font-family: 'Roboto', sans-serif;
-}
-
-.link {
-  color: var(--color-grey-2)
-}
-
-.link:hover {
-  text-decoration: none;
-  color: var(--color-grey-2)
 }

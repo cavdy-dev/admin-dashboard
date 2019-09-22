@@ -1,5 +1,6 @@
 import React from 'react'
 
-export default function link({name}) {
-  return <a href="#" className="link mr-4 ml-4">{name}</a>
+export default function link({linkStyle, icon, name}) {
+  // eslint-disable-next-line
+  return <a href="#" className={linkStyle}><i class={icon}></i>{name}</a>
 }
