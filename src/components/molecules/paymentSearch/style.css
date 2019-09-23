@@ -1,0 +1,8 @@
+.payment-search {
+  border: none;
+  border-bottom: 1px solid var(--color-grey-2);
+  outline: none;
+  background-color: transparent;
+  font-size: 12px;
+  width: 300px;
+}

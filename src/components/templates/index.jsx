@@ -3,6 +3,7 @@ import Header from '../organisms/header';
 import Sidebar from '../organisms/sidebar';
 import TopCharts from '../organisms/topCharts';
 import MainCharts from '../organisms/mainCharts';
+import Payments from '../organisms/paymentList';
 
 export default function index() {
   return (
@@ -12,6 +13,7 @@ export default function index() {
       <div className="main-section d-flex flex-column">
         <TopCharts />
         <MainCharts />
+        <Payments />
       </div>
     </div>
   )
