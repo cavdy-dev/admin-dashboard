@@ -1,0 +1,15 @@
+.chart-card {
+  width: 250px;
+  height: 70px;
+  background-color: var(--color-white);
+  border-radius: 3px;
+}
+
+.data-transaction-title {
+  font-size: 9px;
+  color: var(--color-grey-2);
+}
+
+.data-transaction-count {
+  font-weight: bold;
+}
