@@ -1,0 +1,29 @@
+.table-logo {
+  padding: 7px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-grey-dark-2);
+  color: var(--color-white);
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+tr.border_bottom td {
+  border-bottom:2pt solid var(--color-grey-dark);
+  height: 70px;
+}
+
+.first-column {
+  color: var(--color-black);
+}
+
+.status-circle {
+  border: 1px solid var(--color-grey-dark-2);
+  border-radius: 20px;
+  height: 40px;
+  width: 150px;
+}
+
+.fa-circle {
+  font-size: 9px;
+}
